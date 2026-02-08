@@ -1,0 +1,18 @@
+@import "tailwindcss";
+
+/* html, body {
+  height: 100%;
+  margin: 0;
+  overflow: hidden; 
+} */
+.scroller {
+  overflow-y: scroll;
+  scrollbar-width: none;
+}
+
+.scroller:hover {
+  overflow-y: scroll;
+  scrollbar-width: thin;
+}
+
+
